@@ -11,9 +11,76 @@ body{
     display: flex;
     justify-content: center;
     margin-top: 1rem;
+    padding-left: 4rem;
     
   
     
+}
+
+.separation-left {
+    
+    border-top: 3px  white;
+    color: #333;
+  size: 50%;
+    text-align: center;
+    height: 1px;
+    width: 30%;
+    
+    text-align: left;
+    margin-left: 0px;
+    position: relative;
+    margin: 7rem 0rem;
+    margin-bottom: 0px;
+
+}
+.separation-right{
+    border-top: 3px  white;
+    color: #333;
+  size: 50%;
+    
+    height: 1px;
+    width: 30%;
+
+    text-align:right;
+   
+    position: relative;
+    margin: 8rem 65rem;
+    margin-top: 0px;
+
+  }  
+.separation-bottom{
+    border-top: 3px  white;
+    color: #333;
+    size: 50%;
+    height: 1px;
+    width: 5%;
+  
+    text-align:center;
+    position: relative;
+    transform: rotate(90deg);
+    padding: 3rem 1rem;
+    
+
+
+    
+}
+.sepleft{
+
+    
+}
+.sepbottom{
+display: flex;
+padding-right: 4rem;
+}
+.sepright{
+    margin: 0px;
+    
+}
+
+.sepy{
+    justify-content: center;
+    text-align: center;
+    margin-left: 45rem;
 }
 
 .nav nav{
@@ -29,21 +96,22 @@ height: 247px;
 width: 247px;
 border-radius: 50%;
 display: block;
-
-padding: 0px 50% 0px 50%;
+margin-top: 0px;
+padding: 5px 50% 5px 50%;
 
 }
 
 .title{
     text-align: center;
-    margin:3rem 
+    margin: 1.5rem 1rem 1.5rem 1rem;
 }
 
 .picture{
     margin: 0px;
     height: 0px;
-    padding-left: 80vh;
+    padding-left: 70vh;
     padding-right: 50%;
+padding-bottom: 1rem;
     display: block;
 }
 
@@ -53,61 +121,74 @@ padding: 0px 50% 0px 50%;
     background-color: white;
      color: black;
      text-align: center;
-     padding: 0.7rem 0.7rem 0.7rem 0.7rem;
+     padding: 0.5rem 0.5rem 0.5rem 0.5rem;
      margin: 0px;
-}
+     box-shadow: 2px -3px 4px grey;
 
+}
+.mention-legale{
+    margin-top: 6.3rem;
+ padding: 0px;
+}
 
 .logo{
-    padding-bottom: 26vh;
-    padding-top: 40vh;
-    display: flex;
-    text-align: center; 
-    justify-content: center;
+
    
+  display: flex;
+  justify-content: center;
+  padding-right: -1rem;
+
    
 }
- padding: 0px 50% 0px 50%;
 
 .link{
     display: flex;
-  
+
 
 }
 .link a{
       justify-content: center;
-      padding: 0.2rem 0.2rem 0.2rem 0.2rem;
+      padding: 5rem 0.8rem 0.5rem 0.8rem;
+  padding-top: 1rem;
+       
+     
 
 }
+
+.logo-link{
+    text-decoration: none;
+}
 .logo-twitter{
-    width: 30px;
-    height: 30px;
+    width: 25px;
+    height: 25px;
+  
 }
 
 .logo-insta{
-    width: 30px;
-    height: 30px;
+    width: 25px;
+    height: 25px;
 }
 
 .logo-github{
-    width: 30px;
-    height: 30px;
+    width: 25px;
+    height: 25px;
 }
 
 .logo-mail{
-    width: 30px;
-    height: 30px;
+    width: 25px;
+    height: 25px;
 }
 
 .logo-linkedin{
-    width: 30px;
-    height: 30px;
+    width: 25px;
+    height: 25px;
 }
 
 .logo-facebook{
-    width: 30px;
-    height: 30px;
+    width: 25px;
+    height: 25px;
 }
 .footer{
-    padding: 3rem 3rem 3rem 3rem;
+    padding: 4rem 4rem 4rem 4rem;
+ 
 }
