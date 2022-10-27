@@ -1,21 +1,54 @@
 body{
-    font-family: 'Pompiere', cursive;
-    background-color: black;
+    font-family: 'JetBrains Mono', monospace;
+    background-color: #0a192f;
     color: white;
-    margin-bottom: 0px;
-    margin: 0px;
+    margin: 0 auto
+
 }
 
-.nav{
-    color: black;
-    display: flex;
-    justify-content: center;
-    margin-top: 1rem;
-    padding-left: 4rem;
-    
-  
-    
+.header img{
+    width: 150px;
 }
+.header{
+     display: flex;
+    align-items: center;
+ 
+}
+.top-page{
+height: 80vh;
+
+}
+.nav{
+    display: flex;
+    list-style: none;
+   justify-content: space-between; 
+    margin-left: 90px;
+    width: 400px;
+
+}
+
+li{
+       
+}
+.nav li{
+    color: white; 
+ 
+}
+span{
+    color:#40a496
+}
+
+
+
+
+    
+
+
+.menu a:hover{
+    background-color: #f9c041;
+    transition-duration: 0.5s;
+}
+
 
 .separation-left {
     
@@ -48,34 +81,9 @@ body{
     margin-top: 0px;
 
   }  
-.separation-bottom{
-    border-top: 3px  white;
-    color: #333;
-    size: 50%;
-    height: 1px;
-    width: 5%;
-  
-    text-align:center;
-    position: relative;
-    transform: rotate(90deg);
-    padding: 3rem 1rem;
-    
 
 
-    
-}
-.sepleft{
 
-    
-}
-.sepbottom{
-display: flex;
-padding-right: 4rem;
-}
-.sepright{
-    margin: 0px;
-    
-}
 
 .sepy{
     justify-content: center;
@@ -83,37 +91,13 @@ padding-right: 4rem;
     margin-left: 45rem;
 }
 
-.nav nav{
-background-color: white;
-display: block;
-padding: 0.2rem 1rem 0.2rem 1rem;
-border-radius: 0.7rem;
-margin-right: 5rem;
-}
 
-.my-picture{
-height: 247px;
-width: 247px;
-border-radius: 50%;
-display: block;
-margin-top: 0px;
-padding: 5px 50% 5px 50%;
-
-}
 
 .title{
     text-align: center;
     margin: 1.5rem 1rem 1.5rem 1rem;
 }
 
-.picture{
-    margin: 0px;
-    height: 0px;
-    padding-left: 70vh;
-    padding-right: 50%;
-padding-bottom: 1rem;
-    display: block;
-}
 
 
 .mention-page{
@@ -123,65 +107,73 @@ padding-bottom: 1rem;
      text-align: center;
      padding: 0.5rem 0.5rem 0.5rem 0.5rem;
      margin: 0px;
-     box-shadow: 2px -3px 4px grey;
+     /* box-shadow: 2px -3px 4px grey; */
 
 }
 .mention-legale{
     margin-top: 6.3rem;
  padding: 0px;
+
+ 
 }
 
 .logo{
-
    
   display: flex;
   justify-content: center;
   padding-right: -1rem;
 
    
+
 }
 
 .link{
     display: flex;
 
-
-}
-.link a{
-      justify-content: center;
-      padding: 5rem 0.8rem 0.5rem 0.8rem;
-  padding-top: 1rem;
-       
      
 
+        
 }
+.link a{
+
+  justify-content: center;
+      padding: 5rem 0.8rem 0.5rem 0.8rem;
+  padding-top: 1rem;  
+
+}
+
+
+.link a:hover{
+    box-shadow: 0px 0px 10px white; 
+    border-radius: 30%;
+   
+}
+
+
 
 .logo-link{
     text-decoration: none;
+
+
+
   
 }
 .logo-twitter{
     width: 25px;
     height: 25px;
-    box-shadow: 0px 0px 10px white;
-    border-radius: 30%;
+    /* box-shadow: 0px 0px 10px white; */
+    /* border-radius: 30%; */
     padding: 5px;
     transition:  0.5s ease;
+    padding: 0px;
 }
 
-.logo-insta{
-    width: 25px;
-    height: 25px;
-    box-shadow: 0px 0px 10px white;
-    border-radius: 20%;
-    padding: 5px;
-    transition:  0.5s ease;
-}
 
 .logo-github{
     width: 25px;
     height: 25px;
-    box-shadow: 0px 0px 10px white;
-    border-radius: 20%;
+    /* box-shadow: 0px 0px 10px white; */
+    /* border-radius: 20%; */
     padding: 5px;
     transition:  0.5s ease;
 }
@@ -189,8 +181,8 @@ padding-bottom: 1rem;
 .logo-mail{
     width: 25px;
     height: 25px;
-    box-shadow: 0px 0px 10px white;
-    border-radius: 20%;
+    /* box-shadow: 0px 0px 10px white; */
+    /* border-radius: 20%; */
     padding: 5px;
     transition:  0.5s ease;
 }
@@ -198,23 +190,12 @@ padding-bottom: 1rem;
 .logo-linkedin{
     width: 25px;
     height: 25px;
-    box-shadow: 0px 0px 10px white;
-    border-radius: 20%;
+    /* box-shadow: 0px 0px 10px white; */
+    /* border-radius: 20%; */
     padding: 5px;
    
     
     transition:  0.5s ease;
 }
 
-.logo-facebook{
-    width: 25px;
-    height: 25px;
-    box-shadow: 0px 0px 10px white;
-    border-radius: 20%;
-    padding: 5px;
-    transition:  0.5s ease;
-}
-.footer{
-    padding: 4rem 4rem 4rem 4rem;
- 
-}
+
