@@ -12,7 +12,6 @@ body{
 .header{
      display: flex;
     align-items: center;
- 
 }
 .top-page{
 height: 80vh;
@@ -22,20 +21,24 @@ height: 80vh;
     display: flex;
     list-style: none;
    justify-content: space-between; 
-    margin-left: 90px;
-    width: 400px;
+    margin-left: 30em;
+    width: 600px;
+  
 
 }
+.a{
 
+}
 li{
-       
+ 
 }
 .nav li{
     color: white; 
- 
+    margin:0 10px;
 }
 span{
-    color:#40a496
+    color:#40a496;
+
 }
 
 
