@@ -12,6 +12,16 @@ body{
 .header{
      display: flex;
     align-items: center;
+
+
+    box-shadow: 0px 5px 10px 0px #aaa;
+    position: fixed;
+    width: 100%;
+  
+    color: #000;
+    opacity: 0.60;
+    z-index: 100;
+
 }
 .top-page{
 height: 80vh;
@@ -23,12 +33,20 @@ height: 80vh;
    justify-content: space-between; 
     margin-left: 30em;
     width: 600px;
+   
+    font-size: 1rem;
   
-
 }
-.a{
 
+nav a{
+    padding-right: 0.1em;
 }
+
+nav a:hover{
+        color: #40a496;
+        transition-duration: 0.5s;
+    }
+
 li{
  
 }
@@ -44,62 +62,7 @@ span{
 
 
 
-    
 
-
-.menu a:hover{
-    background-color: #f9c041;
-    transition-duration: 0.5s;
-}
-
-
-.separation-left {
-    
-    border-top: 3px  white;
-    color: #333;
-  size: 50%;
-    text-align: center;
-    height: 1px;
-    width: 30%;
-    
-    text-align: left;
-    margin-left: 0px;
-    position: relative;
-    margin: 7rem 0rem;
-    margin-bottom: 0px;
-
-}
-.separation-right{
-    border-top: 3px  white;
-    color: #333;
-  size: 50%;
-    
-    height: 1px;
-    width: 30%;
-
-    text-align:right;
-   
-    position: relative;
-    margin: 8rem 65rem;
-    margin-top: 0px;
-
-  }  
-
-
-
-
-.sepy{
-    justify-content: center;
-    text-align: center;
-    margin-left: 45rem;
-}
-
-
-
-.title{
-    text-align: center;
-    margin: 1.5rem 1rem 1.5rem 1rem;
-}
 
 
 
@@ -200,5 +163,19 @@ span{
     
     transition:  0.5s ease;
 }
+
+
+
+/* Sur les écrans, quand la largeur de la fenêtre fait au maximum 1280px */
+@media screen and (max-width: 1280px)
+
+/* Sur tous types d'écran, quand la largeur de la fenêtre est comprise entre 1024px et 1280px */
+@media all and (min-width: 1024px) and (max-width: 1280px)
+
+
+
+/* Sur tous types d'écrans orientés verticalement */
+@media all and (orientation: portrait)
+
 
 
