@@ -6,6 +6,8 @@ body{
 
 }
 
+/*Logo en-tête*/
+
 .header img{
     width: 150px;
 }
@@ -14,7 +16,7 @@ body{
     align-items: center;
 
 
-    box-shadow: 0px 5px 10px 0px #aaa;
+    /*box-shadow: 0px 5px 10px 0px #aaa;*/
     position: fixed;
     width: 100%;
   
@@ -38,11 +40,11 @@ height: 80vh;
   
 }
 
-nav a{
+.nav a{
     padding-right: 0.1em;
 }
 
-nav a:hover{
+.nav a:hover{
         color: #40a496;
         transition-duration: 0.5s;
     }
@@ -54,17 +56,32 @@ li{
     color: white; 
     margin:0 10px;
 }
-span{
-    color:#40a496;
 
+
+main{
+    
+}
+.sayhi p{
+    
+}
+
+.presentation p {
+    
 }
 
 
 
+.boom p {
+    margin-bottom: 20em;
+    text-transform: uppercase;
+   width: 20vh;
+  margin-bottom: 70em;
+   font-family:'Courier New', Courier, monospace;
+}
 
-
-
-
+.sayhi p {
+    margin-bottom: 20em;
+}
 
 .mention-page{
     
@@ -83,11 +100,93 @@ span{
  
 }
 
+
+/*SIDEBAR SOCIAL MEDIA*/
+.navsidebar{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    text-transform: capitalize;
+
+}
+li a, i{
+    text-decoration: none;
+    font-size: 1.2rem;
+
+}
+
+.navsidebar{
+    position: fixed;
+    width: 70px;
+    margin-top: 250px;
+    box-shadow: 2px 2px 8px 0px rgba(0,0,0,.5);
+   border-radius: 30px;;
+}
+.navsidebar li{
+    height: 55px;
+    position: relative;
+}
+.navsidebar li a{
+    display: block;
+    width: 100%;
+    height: 100%;
+    line-height: 55px;
+    padding-left: 25%;
+    border-bottom: 1px solid #3d3d3d;
+    border-radius: 30px;
+
+    transition: all 0.5s linear;
+
+}
+
+.navsidebar li a i{
+    position: absolute;
+    top:17px;
+    left: 30px;
+}
+span{
+    display: none;
+}
+
+a:hover{
+    width: 200px;
+    z-index: 1;
+    border-radius: 30px;
+    border-bottom: 1px solid rgba(0,0,0,.5);
+    box-shadow: 2px 2px 8px 0px rgba(0,0,0,.5);
+}
+
+li:nth-child(1):hover a{
+    background-color: #40a496;;
+}
+li:nth-child(2):hover a{
+    background-color: #40a496;;
+}
+li:nth-child(3):hover a{
+    background-color: #40a496;;
+}
+li:nth-child(4):hover a{
+    background-color: #40a496;;
+}
+
+
+
+
+
+ul li a:hover{
+    display: block;
+    padding-left: 40%;
+
+}
+
+
+/*
 .logo{
    
   display: flex;
   justify-content: center;
   padding-right: -1rem;
+  
 
    
 
@@ -129,7 +228,7 @@ span{
     height: 25px;
     /* box-shadow: 0px 0px 10px white; */
     /* border-radius: 30%; */
-    padding: 5px;
+    /*padding: 5px;
     transition:  0.5s ease;
     padding: 0px;
 }
@@ -140,7 +239,7 @@ span{
     height: 25px;
     /* box-shadow: 0px 0px 10px white; */
     /* border-radius: 20%; */
-    padding: 5px;
+   /* padding: 5px;
     transition:  0.5s ease;
 }
 
@@ -149,7 +248,7 @@ span{
     height: 25px;
     /* box-shadow: 0px 0px 10px white; */
     /* border-radius: 20%; */
-    padding: 5px;
+   /* padding: 5px;
     transition:  0.5s ease;
 }
 
@@ -158,11 +257,33 @@ span{
     height: 25px;
     /* box-shadow: 0px 0px 10px white; */
     /* border-radius: 20%; */
-    padding: 5px;
+    /*padding: 5px;
    
     
     transition:  0.5s ease;
 }
+*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
