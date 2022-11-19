@@ -42,11 +42,32 @@ height: 80vh;
 
 .nav a{
     padding-right: 0.1em;
+  
+
 }
+
+.presentation{
+    height:40em;
+    width: 40em;
+    display: inline-block;
+    margin-left: 20em;
+   text-align: center;
+
+}
+
+.nav li:nth-child(5) a{
+    border: 2px solid #40a496 ;
+    border-radius: 20px;
+    margin: 0.5em;
+    padding: 0.4em
+}
+
 
 .nav a:hover{
         color: #40a496;
         transition-duration: 0.5s;
+    
+   
     }
 
 
@@ -94,6 +115,8 @@ height: 80vh;
     box-sizing: border-box;
     text-transform: capitalize;
 
+
+
 }
 li a, i{
     text-decoration: none;
@@ -103,8 +126,8 @@ li a, i{
 
 .navsidebar{
     position: fixed;
-    width: 70px;
-    margin-top: 250px;
+    width: 60px;
+    margin-top: 20em;
     box-shadow: 2px 2px 8px 0px rgba(0,0,0,.5);
    border-radius: 30px;;
 }
@@ -128,31 +151,30 @@ li a, i{
 .navsidebar li a i{
     position: absolute;
     top:17px;
-    left: 30px;
+    left: 23px;
 }
 span{
     display: none;
 }
 
-a:hover{
-    width: 200px;
+.bar:hover{
     z-index: 1;
     border-radius: 30px;
     border-bottom: 1px solid rgba(0,0,0,.5);
     box-shadow: 2px 2px 8px 0px rgba(0,0,0,.5);
 }
 
-li:nth-child(1):hover a{
-    background-color: #40a496;;
+.navsidebar li:nth-child(1):hover a{
+    background-color: #40a496;
 }
-li:nth-child(2):hover a{
-    background-color: #40a496;;
+.navsidebar li:nth-child(2):hover a{
+    background-color: #40a496;
 }
-li:nth-child(3):hover a{
-    background-color: #40a496;;
+.navsidebar li:nth-child(3):hover a{
+    background-color: #40a496;
 }
-li:nth-child(4):hover a{
-    background-color: #40a496;;
+.navsidebar li:nth-child(4):hover a{
+    background-color: #40a496;
 }
 
 
@@ -251,12 +273,85 @@ ul li a:hover{
 */
 
 
+/* Section gauche CSS*/
+.presentation{
+    position: absolute;
+    top: 50%;
+    width: 50%;
+    height: 100vh;
+    color: white;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+   
+}
+
+
+.sayhello{
+    font-size: 1.6rem;
+    text-transform: uppercase;
+    padding-left: 0.8rem;
+    line-height: 1.4rem;
+    padding-bottom: 1em;
+}
+.job{
+    padding-top: 1em;
+}
+
+.left-section__title-part {
+    display: block;
+}
+.left-section__title-container {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+}
+
+.left-section__latest-container {
+    text-align: right;
+    padding: 1rem;
+    background-color: rgba(175, 175, 175, 0.5);
+    text-shadow: 1px 1px 1px black;
+}
+.left-section__article-title {
+    font-style: italic;
+    font-size: 1.2rem;
+    padding-bottom: 1rem;
+}
+.name {
+    font-weight: bold;
+    font-style: normal;
+    font-size: 1.4rem;
+}
+.left-section__article-content {
+    line-height: 1.8rem;
+    padding-left: 5rem;
+}
+.left-section__navigation-container {
+    text-align: right;
+}
 
 
 
 
 
 
+
+@media only screen and (max-width:1024px) {
+    .nav {
+      top:auto;
+      width:100%;
+      bottom:0px;
+    }
+  
+    .nav:hover {
+      width:100%;
+    }
+  
+
+  
+
+}
 
 
 
