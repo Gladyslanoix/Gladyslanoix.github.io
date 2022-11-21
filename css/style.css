@@ -124,6 +124,10 @@ li a, i{
 
 }
 
+
+.header{
+    box-shadow: 2px 2px 8px 0px rgba(0,0,0,.5);
+}
 .navsidebar{
     position: fixed;
     width: 60px;
@@ -278,24 +282,44 @@ ul li a:hover{
     position: absolute;
     top: 50%;
     width: 50%;
-    height: 100vh;
+    min-height: 100vh;
     color: white;
     box-sizing: border-box;
     display: flex;
     flex-direction: column;
-   
+    align-items: flex-start;
+    max-width: 1000px;
 }
 
 
 .sayhello{
-    font-size: 1.6rem;
-    text-transform: uppercase;
+    font-size: 1rem;
+   color: #40a496;
     padding-left: 0.8rem;
     line-height: 1.4rem;
     padding-bottom: 1em;
+    margin: 0px 0px 30px 4px;
+    font-weight:100;
+}
+
+.name {
+    font-weight: 600;
+    font-style: normal;
+    font-size: clamp(40px, 8vw, 80px);
+    color:#ccd6f6;
+    margin: 0px;
+    font-family:"Calibre","Inter","San Francisco","SF Pro Text",-apple-system,system-ui,sans-serif; 
 }
 .job{
     padding-top: 1em;
+    font-weight: bold;
+    font-style: normal;
+    font-size: 1.4rem;
+    margin-top: 10px;
+    color:#8892b0;
+    font-weight: 600;
+    font-family: "SF Mono","Fira Code","Fira Mono","Roboto Mono",monospace;
+    font-size: clamp(20px, 8vw, 50px);
 }
 
 .left-section__title-part {
@@ -318,11 +342,7 @@ ul li a:hover{
     font-size: 1.2rem;
     padding-bottom: 1rem;
 }
-.name {
-    font-weight: bold;
-    font-style: normal;
-    font-size: 1.4rem;
-}
+
 .left-section__article-content {
     line-height: 1.8rem;
     padding-left: 5rem;
