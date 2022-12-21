@@ -49,13 +49,7 @@
 
 /*barre de naviguation*/
 
-.data{
-  background: url(laptop.jpg);
-  height: 100vh;
-  margin-left: 250px;
-  background-size: cover;
-  background-repeat: no-repeat;
-}
+
 
 
 nav {
@@ -106,11 +100,6 @@ label{
   cursor: pointer;
 }
 
-nav ul{
-  float: right;
-  margin-right: 20px;
-  
-}
 
 nav ul li {
   line-height: 80px;
@@ -157,7 +146,16 @@ nav ul li a:hover{
 }
 
 
+h3{
+  font-family: 'Alex Brush', cursive;
+  text-align: center;
+  font-weight: 400;
+  font-size: 25px;
+  color:#c85103;
 
+  margin-top: 0em;
+  
+}
 
 center{
 
@@ -181,9 +179,7 @@ img{
  
 }
 
-.side-menu center h2{
-  color: white;
-}
+
 
 .side-menu a{
   display: flex;
@@ -242,10 +238,18 @@ display: none;
     display: none;
   }
 
-  .side-menu{
-    width: 100px;
-    
+  nav{
+    size:50%
   }
+nav .menu-bar{
+    display: block;
+   
+  }
+
+
+nav{
+  background-color: transparent;
+}
 
   .side-menu a i{
     line-height: 80px;
@@ -255,9 +259,8 @@ display: none;
   }
 
 
-  .data{
-    margin-left: 100px;
-  }
+
+
 }
 
 
@@ -273,9 +276,7 @@ display: none;
     display: none;
   }
 
-  nav ul{
-    display: none;
-  }
+
 
   .side-menu{
     width: 100%;
@@ -293,9 +294,7 @@ display: none;
     display: block;
   }
 
-  .side-menu .Logout{
-    display: block;
-  }
+
 
   nav .menu-bar{
     display: block;
