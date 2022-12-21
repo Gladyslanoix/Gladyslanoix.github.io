@@ -5,6 +5,8 @@
     font-family: 'JetBrains Mono', monospace;
     text-decoration: none;
     list-style: none;
+   
+    ;
   }
 
   /*Scroll-down*/
@@ -59,7 +61,8 @@
 nav {
  
 
-background: #1D2951;
+background: #052e44
+;
 line-height: 80px;
 position: fixed;
 width: 100%;
@@ -132,21 +135,20 @@ nav ul li a:hover{
 
 .side-menu{
   position: fixed;
-  background: #1D2951;
+  background: #052e44;
   /*width: 250px;*/
   justify-content: center;
   align-items: center;
 
-
-
+ 
   
   width: 13rem; 
   height: 100vh;
   left: 0;
   top: 0;
   right: auto;
-  bottom:0;
-  display: flex;
+  bottom: 0;
+
   z-index:3;
   flex-direction: column;
   
@@ -156,13 +158,27 @@ nav ul li a:hover{
 
 
 
+
+center{
+
+}
+
 .side-menu center img{
-  height: 300px;
-  width: 300px;
+
+
+
+
 
  
  
 
+}
+
+img{
+ 
+   height: 208px;
+  width: 208px;
+ 
 }
 
 .side-menu center h2{
@@ -170,12 +186,14 @@ nav ul li a:hover{
 }
 
 .side-menu a{
-  display: block;
+  display: flex;
   line-height: 60px;
 
   transition: 0.5s;
-}
+  justify-content: center;
 
+  
+}
 
 .side-menu a:hover{
   background: rgb(20,54,165);
@@ -186,6 +204,10 @@ nav ul li a:hover{
 font-size: 20px;
 margin-left: 10px;
 color: white;
+border-bottom: 1px solid grey;
+font-size: 1.6rem;
+width: 100%;
+text-align: center;
 }
 
 
@@ -222,6 +244,7 @@ display: none;
 
   .side-menu{
     width: 100px;
+    
   }
 
   .side-menu a i{
@@ -236,6 +259,14 @@ display: none;
     margin-left: 100px;
   }
 }
+
+
+
+
+
+
+
+
 
 @media (max-width:650px) {
   .data{
@@ -330,7 +361,7 @@ h2{
     display: flex ;
     align-items: center;
     justify-content: center;
-
+    background-color: #0a192f
   }
 
 
@@ -481,7 +512,8 @@ h2{
     height: 10px;
     width: 10px;
     transform: translate(-50%, -100%) rotate(45deg);
-    border: 2px solid #86C232;
+    border: 2px solid #cf3e02
+    ;
     border-top: transparent;
     border-left: transparent;
     animation: scroll-down 1s ease-in-out infinite;
